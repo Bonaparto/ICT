@@ -1,0 +1,5 @@
+print('text:', end=' ')
+s = input().split()
+print('word:', end=' ')
+word = input()
+print(word in s)
